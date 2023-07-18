@@ -8,8 +8,8 @@
     --text-color: var(--color-black);
 
     /* Font family variables */
-    --font-family-base: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-    --font-family-title: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    --font-family-base: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    --font-family-title: 'Raleway', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 
     /* Font size variables */
     --font-size-small: 1.2rem;
@@ -21,6 +21,11 @@
     /* Font weight variables */
     --font-weight-regular: 400;
     --font-weight-bold: 700;
+
+    /* Line height variables */
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
 }
 
 html {
@@ -33,6 +38,7 @@ body {
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-base);
 }
 
 h1,
